@@ -2,13 +2,13 @@ import React, { Component } from "react";
 
 export default class App extends Component {
   state = {
-    count: 0,
+    count:0,
   };
   render() {
     return (
       <div>
         <h1>Counter Application</h1>
-        <p>Counter: {this.state.count}</p>
+        <p>Count: {this.state.count}</p>
         <button
           onClick={() =>
             this.setState({
